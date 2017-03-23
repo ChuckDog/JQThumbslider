@@ -13,8 +13,6 @@ $(document).ready(function() {
 			return false;
 		}
 	});
-	//console.log(totalWidth);
-	//console.log(positions);
 	$('#slides').width(totalWidth);
 	// Menu item click handler
 	$('#menu ul li a').click(function(e, keepScroll) {
@@ -32,7 +30,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		
 		//Stop autoscroll
-		if(!autoScroll) clearInterval(itvl);
+		// if(!autoScroll) clearInterval(itvl);
 	});
 	
 	// Make first image active
